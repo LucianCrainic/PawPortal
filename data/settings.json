@@ -1,42 +1,37 @@
 {
-	"username": "Excalith",
+	"username": "Lucian",
+
 	"theme": {
-		"name": "Default",
-		"backgroundColor": "#121317",
-		"windowColor": "#1e212b",
-		"textColor": "#e2e2e2",
-		"black": "#16161e",
-		"red": "#ec6183",
-		"green": "#2ed8a2",
-		"yellow": "#e8b195",
-		"blue": "#2bc3de",
-		"magenta": "#d1aff8",
-		"cyan": "#62e0e2",
-		"white": "#e2e2e2",
+		"name": "Catppuccin Mocha",
+		"backgroundColor": "#11111b",
+		"windowColor": "#1e1e2e",
+		"textColor": "#cdd6f4",
+		"black": "#45475A",
+		"red": "#f38ba8",
+		"green": "#a6e3a1",
+		"yellow": "#f9e2af",
+		"blue": "#89b4fa",
+		"magenta": "#f5c2e7",
+		"cyan": "#94e2d5",
+		"white": "#bac2de",
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
-		"easing": "ease-in-out",
-		"fadeIn": true,
-		"blur": false
+		"url": "assets/bg.png"
 	},
 	"terminal": {
 		"fixedHeight": true,
-		"windowGlow": true,
-		"windowGlowColor": "#291f3325",
-		"textGlow": false,
 		"opacity": 0,
 		"blur": 16
 	},
 	"prompt": {
 		"ctrlC": true,
-		"placeholder": "command...",
+		"placeholder": "meaow...",
 		"placeholderColor": "gray",
-		"userColor": "green",
+		"userColor": "white",
 		"atColor": "gray",
-		"hostColor": "magenta",
-		"promptColor": "magenta",
+		"hostColor": "green",
+		"promptColor": "white",
 		"promptSymbol": "❯",
 		"caretColor": "green",
 		"selectionBg": "yellow",
@@ -46,7 +41,7 @@
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
 		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
+		"image": "assets/paw.png",
 		"data": [
 			"Time: {time}",
 			"Date: {date}",
@@ -80,11 +75,6 @@
 				"url": "https://duckduckgo.com/?q={}"
 			},
 			{
-				"alias": "b",
-				"name": "Brave Search",
-				"url": "https://search.brave.com/search?q={}"
-			},
-			{
 				"alias": "gh",
 				"name": "Github Search",
 				"url": "https://github.com/search?q={}"
@@ -95,70 +85,90 @@
 				"url": "https://stackoverflow.com/search?q={}"
 			},
 			{
-				"alias": "r",
-				"name": "Subreddit Search",
-				"url": "https://reddit.com/r/{}"
-			},
-			{
 				"alias": "w",
 				"name": "Wikipedia Search",
 				"url": "https://en.wikipedia.org/wiki/{}"
+			},
+			{
+				"alias": "ti",
+				"name": "Translate Italian to English",
+				"url": "https://translate.google.it/?hl=it&sl=it&tl=en&text={}&op=translate"
+			},
+			{
+				"alias": "te",
+				"name": "Translate English to Italian",
+				"url": "https://translate.google.it/?hl=it&sl=en&tl=it&text={}&op=translate"
 			}
 		]
 	},
 	"sections": {
 		"list": [
 			{
-				"title": "General",
+				"title": "Utils",
 				"color": "green",
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "Mail",
+						"url": "https://mail.google.com/mail/u/0/",
+						"icon": "material-symbols:mail"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Calendar",
+						"url": "https://calendar.google.com/calendar/",
+						"icon": "mdi:calendar"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "Todo",
+						"url": "https://app.todoist.com/",
+						"icon": "ri:todo-fill"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "Notion",
+						"url": "https://www.notion.so",
+						"icon": "mingcute:notion-fill"
+					},
+					{
+						"name": "Bit Warden",
+						"url": "https://vault.bitwarden.com/#/login",
+						"icon": "simple-icons:bitwarden"
 					}
 				]
 			},
 			{
-				"title": "Dev",
+				"title": "Work",
 				"color": "magenta",
 				"align": "left",
 				"links": [
 					{
-						"name": "GitHub",
-						"url": "https://github.com",
-						"icon": "mdi:github"
-					},
-					{
 						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
+						"url": "https://elt-gitlab.elt.elt/",
+						"icon": "mdi:gitlab"
 					},
 					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
+						"name": "Teams",
+						"url": "https://teams.microsoft.com/",
+						"icon": "tabler:brand-teams"
 					},
 					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
+						"name": "Doors",
+						"url": "https://elt-doorsng-prd.elt.elt/jts/dashboards/",
+						"icon": "pajamas:requirements"
+					},
+					{
+						"name": "MyF2A",
+						"url": "https://login.myareaf2a.com/login/user",
+						"icon": "material-symbols:badge"
+					},
+					{
+						"name": "MyHR",
+						"url": "#TODO",
+						"icon": "ic:baseline-people"
+					},
+					{
+						"name": "Intranet",
+						"url": "#TODO",
+						"icon": "mdi:internet"
 					}
 				]
 			},
@@ -168,14 +178,9 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
-						"icon": "mdi:twitter"
-					},
-					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
+						"name": "Instagram",
+						"url": "https://instagram.com",
+						"icon": "mdi:instagram"
 					},
 					{
 						"name": "Reddit",
@@ -183,90 +188,176 @@
 						"icon": "mdi:reddit"
 					},
 					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
+						"name": "Twitter",
+						"url": "https://x.com",
+						"icon": "mdi:twitter"
+					},
+					{
+						"name": "Youtube",
+						"url": "https://youtube.com",
+						"icon": "mdi:youtube"
+					},
+					{
+						"name": "LinkedIn",
+						"url": "https://linkedin.com",
+						"icon": "mdi:linkedin"
 					}
 				]
 			},
 			{
-				"title": "Gaming",
+				"title": "Google",
 				"color": "red",
 				"align": "left",
 				"links": [
 					{
-						"name": "Polygon",
-						"url": "https://polygon.com",
-						"icon": "uil:polygon"
+						"name": "Drive",
+						"url": "https://drive.google.com/drive/u/0/",
+						"icon": "simple-icons:googledrive"
 					},
 					{
-						"name": "IGN",
-						"url": "https://ign.com",
-						"icon": "mdi:currency-sign"
+						"name": "Sheets",
+						"url": "https://docs.google.com/spreadsheets/u/0/",
+						"icon": "simple-icons:googlesheets"
 					},
 					{
-						"name": "RPS",
-						"url": "https://rockpapershotgun.com/",
-						"icon": "ph:toilet-paper-bold"
+						"name": "Docs",
+						"url": "https://docs.google.com/document/u/0/",
+						"icon": "simple-icons:googledocs"
 					},
 					{
-						"name": "80lv",
-						"url": "https://80.lv/",
-						"icon": "tabler:hand-rock"
+						"name": "Photos",
+						"url": "https://photos.google.com/u/0/",
+						"icon": "simple-icons:googlephotos"
 					}
 				]
 			},
 			{
-				"title": "Science",
+				"title": "Develop",
 				"color": "blue",
 				"align": "left",
 				"links": [
 					{
-						"name": "PopSci",
-						"url": "https://popsci.com/",
+						"name": "GitHub",
+						"url": "https://github.com/",
+						"icon": "mdi:github"
+					},
+					{
+						"name": "LeetCode",
+						"url": "https://leetcode.com/",
+						"icon": "simple-icons:leetcode"
+					},
+					{
+						"name": "HuggingFace",
+						"url": "https://huggingface.co/",
 						"icon": "material-symbols:science"
 					},
 					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "NASA",
-						"url": "https://blogs.nasa.gov/",
-						"icon": "simple-icons:nasa"
-					},
-					{
-						"name": "ESA",
-						"url": "https://blogs.esa.int/",
-						"icon": "mdi:black-mesa"
+						"name": "Kaggle",
+						"url": "https://www.kaggle.com/",
+						"icon": "eos-icons:ai"
 					}
 				]
 			},
 			{
-				"title": "Tech",
+				"title": "Misc",
 				"color": "yellow",
 				"align": "left",
 				"links": [
 					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
+						"name": "Netflix",
+						"url": "https://www.netflix.com/",
+						"icon": "mdi:netflix"
 					},
 					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
+						"name": "Amazon",
+						"url": "https://www.amazon.it/",
+						"icon": "ri:amazon-fill"
 					},
 					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
+						"name": "YT Music",
+						"url": "https://music.youtube.com/",
+						"icon": "simple-icons:youtubemusic"
 					},
 					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+						"name": "Prime Video",
+						"url": "https://www.primevideo.com/",
+						"icon": "cbi:prime-video"
+					}
+				]
+			},
+			{
+				"title": "University",
+				"color": "yellow",
+				"align": "left",
+				"links": [
+					{
+						"name": "Info Stud",
+						"url": "https://www.uniroma1.it/it/pagina-strutturale/studenti",
+						"icon": "mdi:university"
+					},
+					{
+						"name": "Classroom",
+						"url": "https://classroom.google.com/u/1/",
+						"icon": "simple-icons:googleclassroom"
+					},
+					{
+						"name": "Archive",
+						"url": "https://drive.google.com/drive/u/1/",
+						"icon": "material-symbols:archive"
+					},
+					{
+						"name": "Email",
+						"url": "https://mail.google.com/mail/u/1/",
+						"icon": "mdi:email-fast"
+					}
+				]
+			},
+			{
+				"title": "Messages",
+				"color": "green",
+				"align": "left",
+				"links": [
+					{
+						"name": "WhatsApp",
+						"url": "https://web.whatsapp.com/",
+						"icon": "ic:baseline-whatsapp"
+					},
+					{
+						"name": "Telegram",
+						"url": "https://web.telegram.org/",
+						"icon": "ic:baseline-telegram"
+					},
+					{
+						"name": "Discord",
+						"url": "https://discord.com/login",
+						"icon": "ic:baseline-discord"
+					}
+				]
+			},
+			{
+				"title": "Docs",
+				"color": "red",
+				"align": "left",
+				"links": [
+					{
+						"name": "Python",
+						"url": "https://docs.python.org/3.9/index.html",
+						"icon": "teenyicons:python-solid"
+					},
+					{
+						"name": "C++",
+						"url": "https://en.cppreference.com/w/",
+						"icon": "ph:file-cpp"
+					},
+					{
+						"name": "RobotFramework",
+						"url": "https://robotframework.org/robotframework/",
+						"icon": "simple-icons:robotframework"
+					},
+					{
+						"name": "Design Patterns",
+						"url": "https://refactoring.guru/design-patterns",
+						"icon": "clarity:design-solid"
 					}
 				]
 			}

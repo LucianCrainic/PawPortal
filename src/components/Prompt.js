@@ -11,7 +11,7 @@ const Prompt = ({ command, showSymbol = true }) => {
 		<span className="flex cursor-default">
 			<span className={`text-${promptSettings.userColor}`}>{lower_username}</span>
 			<span className={`text-${promptSettings.atColor}`}>@</span>
-			<span className={`text-${promptSettings.hostColor}`}>{browserData.browserLower}</span>
+			<span className={`text-${promptSettings.hostColor}`}>PawPortal</span>
 			{showSymbol && (
 				<span className={`text-${promptSettings.promptColor} ml-2`}>
 					{" "}
